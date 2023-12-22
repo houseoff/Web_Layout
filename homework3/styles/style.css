@@ -3,8 +3,12 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-header {
-  margin: 40px 0 117px 0;
+  margin: 40px 0 40px 0;
 }
 
 .main-header-nav-link-home {
@@ -26,7 +30,7 @@
 }
 
 .main-content {
-  margin: 0 0 178px 0;
+  padding: 44px 0 178px 0;
 }
 
 .main-content-h1 {
@@ -51,7 +55,7 @@
 
 .main-content-button {
   color: #fff;
-  font-family: Gilroy-Bold;
+  font-family: "Gilroy-Bold";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -72,7 +76,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration: none;
 }
 
 .partners-logo-nav {
