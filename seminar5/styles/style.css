@@ -13,7 +13,7 @@ body {
     background: #020A18;
 }
 
-.main-content {
+.features-content {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     font-family: "Open Sans";
@@ -21,7 +21,7 @@ body {
     gap: 30px;
 }
 
-.main-content-div {
+.features-content-div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -31,7 +31,7 @@ body {
     background: #132035;
 }
 
-.main-content-h2 {
+.features-content-h2 {
     color: #FFF;
     font-size: 25px;
     font-weight: 700;
@@ -39,7 +39,7 @@ body {
     opacity: 0.7;
 }
 
-.main-content-p {
+.features-content-p {
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
@@ -70,6 +70,6 @@ body {
     padding: 30px 15px 144px 15px;
 }
 
-.main-content-div:hover {
+.features-content-div:hover {
     box-shadow: 0px 0px 10px 1px #2168db;
 }
