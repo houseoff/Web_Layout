@@ -1,0 +1,251 @@
+/* Fonts */
+
+@font-face { 
+  font-family: Gilroy-Bold;
+  src: url("../fonts/GilroyBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face { 
+  font-family: Gilroy-SemiBold;
+  src: url("../fonts/GilroySemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face { 
+  font-family: Gilroy-Medium;
+  src: url("../fonts/GilroyMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face { 
+  font-family: Gilroy-Regular;
+  src: url("../fonts/GilroyMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Basic Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main Header */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 30px;
+  padding: 40px 0 40px 0;
+}
+
+.main-header-logo {
+  margin-right: auto;
+}
+
+.main-header-link {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+}
+
+/* Main Content */
+
+.main-content {
+  display: flex;
+  gap: 40px;
+  padding: 44px 0 178px 0;
+}
+
+.main-content-h1 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  padding: 0 0 17px 0;
+}
+
+.main-content-p {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  padding: 0 0 37px 0;
+  width: 466px;
+}
+
+.main-content-links {
+  display: flex;
+  gap: 72px;
+  align-items: center;
+}
+
+.main-content-link {
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+}
+
+/* Partners Logo */
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 97px 0 97px 0;
+}
+
+/* Grid Content */
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 100px;
+}
+
+.grid-content-div {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px 25px 30px;
+}
+
+.grid-content-img {
+  width: 70px;
+  padding-bottom: 25px;
+}
+
+.grid-content-h3 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 17px;
+}
+
+.grid-content-p {
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  padding: 0 30px 25px 0;
+}
+
+.grid-content-a {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 150%; /* 16.5px */
+}
+
+.shadow:hover {
+  box-shadow: 0px 0px 20px 10px #f0f0f0;
+}
+
+/* Choose Us Content */
+
+.choose-us-content {
+  display: flex;
+  flex-direction: column;
+  background: #FAFAFA;
+  padding: 92px 0 100px 0;
+}
+
+.choose-us-grid-content {
+  display: grid;
+  grid-template-columns: 375px repeat(3, 1fr) 375px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.choose-us-content-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.choose-us-content-first {
+  grid-column: 2;
+}
+
+.choose-us-content-h2 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.choose-us-content-p {
+  color: #666;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  padding-bottom: 50px;
+}
+
+.choose-us-content-div-h3 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px 0px 22px 0px;
+}
+
+.choose-us-content-div-p {
+  color: #AAA;
+  font-family: Gilroy-Regular;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  padding-bottom: 39px;
+}
+
+.choose-us-content-button {
+  margin-bottom: 50px;
+}
+
+.choose-us-content-img {
+  width: 370px;
+  height: 285px;
+}
+
+/* Public Styles */
+
+.center {
+  padding-left: calc(50% - 1170px / 2);
+  padding-right: calc(50% - 1170px / 2);
+}
+
+.orange-text {
+  color: #f25822;
+}
+
+.orange-button {
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  width: 140px;
+  height: 50px;
+  border-style: none;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+}

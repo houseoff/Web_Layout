@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Open Sans";
+    src:url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #020A18;
+}
+
+.main-content {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    font-family: "Open Sans";
+    text-align: center;
+    gap: 30px;
+}
+
+.main-content-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #132035;
+}
+
+.main-content-h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%; /* 31.25px */
+    opacity: 0.7;
+}
+
+.main-content-p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    opacity: 0.7;
+}
+
+.div-4 {
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.center {
+    padding-left: calc(50% - 1146px / 2);
+    padding-right: calc(50% - 1146px / 2);
+}
+
+.img-4 {
+    width: 306px;
+    height: 322px;
+    padding: 15px 0 30px 0;
+}
+
+.h2-4 {
+    padding: 30px 15px;
+}
+
+.p-4 {
+    padding: 30px 15px 144px 15px;
+}
+
+.main-content-div:hover {
+    box-shadow: 0px 0px 10px 1px #2168db;
+}
