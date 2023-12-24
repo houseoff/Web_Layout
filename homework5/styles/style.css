@@ -164,7 +164,7 @@ a {
 
 .choose-us-grid-content {
   display: grid;
-  grid-template-columns: 375px repeat(3, 1fr) 375px;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   gap: 30px;
 }
@@ -175,10 +175,6 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-}
-
-.choose-us-content-first {
-  grid-column: 2;
 }
 
 .choose-us-content-h2 {
