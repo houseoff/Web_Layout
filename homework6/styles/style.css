@@ -1,0 +1,216 @@
+/* Fonts */
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+  font-weight: bold;
+}
+
+/* Base Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+}
+
+/* ======================================================================================================= */
+/* Header */
+
+.header {
+  display: flex;
+  background-color: #222;
+  justify-content: space-between;
+  grid-column: 2;
+  padding: 25px 0 25px 0;
+}
+
+/* header left content */
+.header-l-c {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-r-c {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 33px;
+}
+
+/* ======================================================================================================= */
+/* Brand */
+
+.brand {
+  display: flex;
+  background-color: #F1E4E6;
+  align-items: center;
+  gap: 63.42px;
+  padding-left: calc(50% - 1600px / 2);
+  padding-right: calc(50% - 1600px / 2);
+}
+
+.brand-name {
+  display: inline-block;
+  border-left: 12px solid #F16D7F;
+  padding-left: 16px;
+}
+
+.brand-name-h1 {
+  color: #222;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.brand-name-h2 {
+  color: #222;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.brand-img {
+  width: 50%;
+}
+
+.brand span{
+  display: flex;
+}
+
+/* ======================================================================================================= */
+/* Offers */
+
+.offers {
+  margin: 65px 0 96px 0;
+  display: grid;
+  grid-template: 260px 180px / repeat(3, 1fr);
+  gap: 30px;
+}
+
+.offer-items {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(33, 22, 22, 0.70);
+}
+
+.offer-item-image {
+  object-fit: cover;
+  z-index: -1;
+}
+
+.offer-item-text {
+  position: absolute;
+}
+
+.offer-item-4 {
+  grid-column: 1 / 4;
+}
+
+.offer-item-p {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.offer-item-h3 {
+  color: #F16D7F;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* ======================================================================================================= */
+/* Products */
+
+.products {
+  display: grid;
+  grid-template: 55px 1fr 1fr 50px / repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.product-items {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+}
+
+.product-item-text {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  gap: 16px;
+}
+
+.product-item-first {
+  grid-column: 1 / 4;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+}
+
+.product-item-dscr-first {
+  color: #9F9F9F;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product-item-h4 {
+  color: #222;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.product-item-name {
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.product-item-dscr {
+  color: #5D5D5D;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.product-item-price {
+  color: #F16D7F;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.product-item-last {
+  padding-top: 18px;
+  background-color: unset;
+  grid-column: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-item-btn {
+  padding: 15px 39px 14px 39px;
+  background-color: unset;
+  color: #F26376;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #FF6A6A;
+}
+
+/* ======================================================================================================= */
+/* Public Styles */
+
+.center {
+  padding-left: calc(50% - 1140px / 2);
+  padding-right: calc(50% - 1140px / 2);
+}
+
+.fc-pink {
+  color: #F16D7F;
+}
