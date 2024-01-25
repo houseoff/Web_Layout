@@ -573,7 +573,7 @@
 
   .products {
     margin: 0 16px 0 16px;
-    -ms-grid-rows: auto (1fr)[3] auto;
+    -ms-grid-rows: auto repeat(3, 1fr) auto;
     -ms-grid-columns: auto;
         grid-template: auto repeat(3, 1fr) auto / auto;
     -webkit-box-pack: center;
